@@ -1,6 +1,7 @@
 
 <script setup>
     const route = useRoute();
+
     const toTitleCase = (str) => {
         let arr = str.split(" ");
         let newArr = [];
@@ -11,6 +12,7 @@
         }
         return newArr.join(" ");
     }
+    
     useHead({
         title: toTitleCase(route.params.name)
     })
@@ -20,7 +22,7 @@
 
 <template>
     <div>
-        <NavBar></NavBar>
+        
         <div class="mx-auto 
         mt-4 
         max-w-7xl 
