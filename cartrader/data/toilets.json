@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Kohler One Piece Compact Elongated 1.28 GPF Toilet with Revolution 360 Swirl Flushing Technology",
+        "manufacturer": "Kohler",
+        "price:": "100,000",
+        "url": "https://www.build.com/kohler-k-30810/s1877390?uid=4436256&searchId=aXu52Ryu8r",
+        "features": ["Bidet"],
+        "description": "It certainly gets the job done."
+    },
+    {
+        "id": 2,
+        "name": "ENVO Echo Elongated Smart Toilet Bidet in White with Auto Open, Auto Close, Auto Flush, Heated Seat and Remote",
+        "manufacturer": "ENVO",
+        "price": "2",
+        "url": "https://www.homedepot.com/p/ANZZI-ENVO-Echo-Elongated-Smart-Toilet-Bidet-in-White-with-Auto-Open-Auto-Close-Auto-Flush-Heated-Seat-and-Remote-TL-STFF950WH/317656167",
+        "features": ["Free Standing", "Bidet", "Auto Flush", "Heated Seat", "Remote"],
+        "description": "Originally developed by the CIA as an assassination device to be used on Fidel Castro, they decided they liked the design and added some actual functionality."
+    },
+    {
+        "id": 3,
+        "name": "American Standard Champion Tall Height 2-Piece High-Efficiency 1.28 GPF Single Flush Elongated Toilet in White Seat Included",
+        "manufacturer": "American Standard",
+        "price": "37",
+        "url": "https://www.homedepot.com/p/American-Standard-Champion-Tall-Height-2-Piece-High-Efficiency-1-28-GPF-Single-Flush-Elongated-Toilet-in-White-Seat-Included-747AA107SC-020/312442216",
+        "features": ["Two Piece"],
+        "description": "Budget friendly."
+    }
+]
