@@ -2,7 +2,7 @@
     <div>
         
 
-            <CarCard></CarCard>
+            <ToiletCards></ToiletCards>
 
     </div>
 </template>

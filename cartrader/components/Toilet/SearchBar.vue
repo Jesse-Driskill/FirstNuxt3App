@@ -7,7 +7,7 @@
         if (!city.value) {
             return cityError.value = true;
         }
-        navigateTo(`/city/${city.value}/car`)
+        navigateTo(`/city/${city.value}/toilet`)
         
     }
 </script>

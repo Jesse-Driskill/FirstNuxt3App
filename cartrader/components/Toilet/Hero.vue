@@ -5,7 +5,7 @@
             <h1 class="text-8xl font-serif mb-10 text-white">Find Your Fart</h1>
   
             <!-- HOME SEARCH BAR -->
-            <CarSearchBar></CarSearchBar>
+            <ToiletSearchBar></ToiletSearchBar>
             <!-- HOME SEARCH BAR -->
   
           </div>

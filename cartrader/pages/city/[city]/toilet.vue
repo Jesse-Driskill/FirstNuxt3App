@@ -24,7 +24,7 @@
 <template>
     <div>       
         <div class="mt-32 flex">
-            <CarSideBar></CarSideBar>
+            <ToiletSideBar></ToiletSideBar>
             <NuxtPage></NuxtPage>
         </div>
     </div>

@@ -11,6 +11,6 @@
 <template>
     <div>
         
-        <CarHero></CarHero>
+        <ToiletHero></ToiletHero>
     </div>
 </template>

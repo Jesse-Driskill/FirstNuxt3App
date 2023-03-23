@@ -2,6 +2,7 @@
 <script setup>
     const route = useRoute();
     const {toTitleCase} = useUtils();
+    const {toilets} = useToilets();
 
     // const toTitleCase = (str) => {
     //     let arr = str.split(" ");
@@ -18,6 +19,12 @@
         title: toTitleCase(route.params.name)
     })
 
+    const toilet = computed(() => {
+        return toilets.find((toilet) => {
+            return toilet.id === parseInt(route.params.id)
+        })
+    })
+
     definePageMeta({
         layout: "custom"
     });
@@ -26,18 +33,18 @@
 
 
 <template>
-    <div>
+    <div v-if="toilet">
         
         
+         
 
+    <ToiletDetailHero :toilet="toilet"></ToiletDetailHero>
 
-    <CarDetailHero></CarDetailHero>
+    <ToiletDetailAttributes :features="toilet.features"></ToiletDetailAttributes>
 
-    <CarDetailAttributes></CarDetailAttributes>
+    <ToiletDetailDescription :description="toilet.description"></ToiletDetailDescription>
 
-    <CarDetailDescription></CarDetailDescription>
-
-    <CarDetailContact></CarDetailContact>
+    <ToiletDetailContact></ToiletDetailContact>
 
     </div>
     
