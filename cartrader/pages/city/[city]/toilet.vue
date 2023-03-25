@@ -24,8 +24,21 @@
 <template>
     <div>       
         <div class="mt-32 flex">
-            <ToiletSideBar></ToiletSideBar>
-            <NuxtPage></NuxtPage>
+            <NuxtErrorBoundary>
+                <ToiletSideBar></ToiletSideBar>
+                <NuxtPage></NuxtPage>
+                <template #error="{error}">
+                    <div class="text-center mx-auto flex flex-col mb-5">
+                        <h1 class="text-5xl text-red-600 mb-5">
+                            Sorry something went wrong!
+                        </h1>
+                            <code>{{ error }}</code>
+                            <button class="text-white bg-blue-400 px-10 py-3 rounded mt-4" @click="error.value = null">
+                                Go back</button>
+                        
+                    </div>
+                </template>
+            </NuxtErrorBoundary>
         </div>
     </div>
 

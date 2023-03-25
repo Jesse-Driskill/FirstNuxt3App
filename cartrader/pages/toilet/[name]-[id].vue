@@ -25,6 +25,13 @@
         })
     })
 
+    if (!toilet.value) {
+        throw createError({
+            statusCode: 404,
+            message: `Toilet with id of ${route.params.id} does not exist!`
+        });
+    }
+
     definePageMeta({
         layout: "custom"
     });
