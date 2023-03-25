@@ -8,7 +8,7 @@
 <template>
     <div class="mt-10">
       <div class="flex justify-center">
-  <img :src="toilet.imageUrl"
+  <NuxtImg :src="toilet.imageUrl"
   class=""
   alt=""/></div>
 

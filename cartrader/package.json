@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "nuxt": "^3.3.1"
+  },
+  "dependencies": {
+    "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1"
   }
 }
