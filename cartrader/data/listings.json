@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Maserati Toilet",
+        "manufacturer": "Maserati",
+        "model": "Fart-7",
+        "price": "100",
+        "year": 2060,
+        "city": "Quebec City",
+        "imageUrl": "https://cdn.discordapp.com/attachments/1087180289127743571/1089711899337306183/MaseratiToilet.png",
+        "features": ["4WD", "Affordable", "Loud"],
+        "description": "Now you get to poop in a Maserati."
+    },
+    {
+        "id": 2,
+        "name": "BIG TOILET",
+        "manufacturer": "Unknown",
+        "model": "BIG",
+        "price": " 'A lot' ",
+        "year": 2020,
+        "city": "Toronto",
+        "imageUrl": "https://cdn.discordapp.com/attachments/892147741436805200/1089713055228755978/BigToilet_1.png",
+        "features": ["LARGE"],
+        "description": "It's a big toilet."
+    },
+    {
+        "id": 3,
+        "name": "Lockheed Martin Toilet",
+        "manufacturer": "Lockheed Martin",
+        "model": "C-7 Built in flamethrower bidet variant",
+        "price": "20,000,000",
+        "year": 2023,
+        "city": "Bethesda (Maryland)",
+        "imageUrl": "https://cdn.discordapp.com/attachments/892147741436805200/1089719460501397554/LockheedToilet.png",
+        "features": ["Flamethrower", "SAM system", "GAU-8 Minigun", "Able to call in airstrikes"],
+        "description": "Built in flamethrower, SAM systems, minigun, airfield with A-10s. Perfect for when you need to unexpectedly defend yourself during your most vulnerable moments."
+    },
+    {
+        "id": 4,
+        "name": "Toyota Civic Toilet",
+        "manufacturer": "Toyota",
+        "model": "Civic",
+        "price": "30,000",
+        "year": 2023,
+        "city": "Montreal",
+        "imageUrl": "https://cdn.discordapp.com/attachments/930184879486943252/1089722356102086666/HondaCivicToilet.png",
+        "features": ["4WD", "Fast", "EV options"],
+        "description": "Now you can poop on the go!"
+    }
+]
