@@ -1,7 +1,6 @@
 <script setup>
     definePageMeta({
-        layout: "custom",
-
+        layout: "custom"
     });
 </script>
 <template>
@@ -12,6 +11,6 @@
         <ToiletMessageCard></ToiletMessageCard>
         <ToiletMessageCard></ToiletMessageCard>
         <ToiletMessageCard></ToiletMessageCard>
-        
+
     </div>
 </template>
